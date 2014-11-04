@@ -76,7 +76,53 @@ header{
 nav{
     height: 30em;
     width: 100%;
+    background: #151515;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
 }
+nav figure {
+    background: #2f2d2d;
+    margin: 0.5em 1.3em;
+    padding: 1em;
+    color: white;
+    font-size: 1.2em;
+}
+
+nav a{
+    margin: 0px;
+}
+
+a:nth-child(1) figure{
+    background: #151515;
+    padding: 0.5em;
+    
+}
+a:nth-child(6){
+   
+    position: absolute;
+    left: 19px;
+}
+
+a:nth-child(7){
+   
+     position: absolute;
+}
+
+a:nth-child(8){
+   
+     position: absolute;
+     right: 19px;
+}
+
+nav p{
+    margin: 2.5em;
+    position: absolute;
+    bottom: 0;
+    
+}
+
 #novedades{
     height: 10em;
     overflow: hidden; 
