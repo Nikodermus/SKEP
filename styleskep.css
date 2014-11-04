@@ -4,18 +4,90 @@
     
 }
 
-header{
-    background: black;
-    width: 100%
+body{
+    width: 100%;
+    overflow: hidden;
+    background: #aaa
+}
+.josefin{
+    font-family: 'Josefin Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.botones_contenedor{
+    text-align: center;
+    width: 100%;
+    position: relative;  
+}
+.botones{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 3em;  
+}
+.izquierda{
+    position: static;
+    left: 0;
+    margin: 0 6em 0 0
     
 }
-
+.derecha{
+    position: static;
+    right: 0;
+    margin: 0 0 0 6em
+}
+header{
+    background: black;
+    width: 100%;
+    padding: 0.5em;
+    margin: 0;
+    position: fixed;
+    z-index: inherit;
+    height: 1.5em;
+    
+}
+.header_div{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    overflow: 
+}
 .letra{
-
+   width: 80px;
+    position: fixed;
+    top: 0.5em;
+    left: 0.5em; 
 }
-
-header img{
-    display: inline-block;
-    margin: 
+ .logo{
+     width: 18px;
+     position: fixed;
+     top: 0.5em;
+     right: 0.5em; 
+     
+ }
+.blank{
+    height: 2.5em;
+    overflow: hidden;
 }
-
+nav{
+    height: 30em;
+    width: 100%;
+}
+#novedades{
+    height: 10em;
+    overflow: hidden; 
+    background-image: url(francoisnielly.jpg)
+}
+.novedades_contenido{
+    position: relative;
+    bottom: -7em;
+}
+.novedades_izquierda{
+    position: static;
+    left: 0;
+    margin: 0 0 0 0
+}
