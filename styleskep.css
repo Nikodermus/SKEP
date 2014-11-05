@@ -145,3 +145,101 @@ nav p a{
     left: 0;
     margin: 0 0 0 0
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contactanos{
+    background: #8547BD;
+    
+}
+
+.contacto{
+    background: #151515;
+    box-shadow:-9px 9px 50px #000 ;
+    color: white;
+    height: 5em;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    width: 100%
+    
+}
+
+.contacto p{
+    width: 100%;
+    position:absolute;
+    margin:2em 0em;
+    
+}
+
+#form{
+    color: white;
+    width: 100%;
+    position: relative;
+}
+
+.datos{
+    
+    padding: 1em;
+    
+}
+
+.datos p{
+    padding: 1em ;
+     margin: 0em 0.5em;
+    border-bottom: 1px solid grey;
+    
+}
+
+.datos div {
+   width: 100%;
+    
+   margin: 0;
+    
+    
+}
+
+.datos div p{
+    display: inline-block;
+    padding: 1em 10em 0.5em 0;
+    margin: 0em 0.5em;
+    border-bottom: 1px solid grey;
+    width:20%;
+}
+
+
+
+.iconos{
+    background: #8547BD;
+    height: 350px;
+    position: absolute;
+    width: 100%;
+    padding: 0.5em;
+    
+}
+
+.iconos  p{
+    
+    
+    
+}
+
+
+
