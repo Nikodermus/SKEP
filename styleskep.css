@@ -16,6 +16,9 @@ a{
     text-decoration: none;
     color: black;
 }
+.articulo{
+    
+}
 .botones_contenedor{
     text-align: center;
     width: 100%;
@@ -134,21 +137,47 @@ nav p a{
 #novedades{
     height: 10em;
     overflow: hidden; 
-    background-image: url(francoisnielly.jpg)
+    background-image: url(francoisnielly.jpg);
+    background-repeat: no-repeat; 
 }
 .novedades_contenido{
     position: relative;
     bottom: -7em;
 }
 .novedades_izquierda{
-    position: static;
+    position: absolute;
     left: 0;
-    margin: 0 0 0 0
+    bottom: -2.6em;
+    margin: 0 0 0 0;
+    color: white;
+    
 }
 
+.novedades_derecha{
+    position: absolute;
+    right: 0;
+    bottom: -3em;
+    margin: 0 0 0 0;
+}
 
+.titulo{
+    background: #151515;
+    box-shadow:-9px 9px 50px #000 ;
+    color: white;
+    height: 5em;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    width: 100%
+    
+}
 
-
+.titulo p{
+    width: 100%;
+    position:absolute;
+    margin:2em 0em;    
+}
 
 
 
@@ -169,25 +198,6 @@ nav p a{
     
 }
 
-.contacto{
-    background: #151515;
-    box-shadow:-9px 9px 50px #000 ;
-    color: white;
-    height: 5em;
-    text-align: center;
-    font-size: 2em;
-    font-family: 'Josefin Sans', sans-serif;
-    position: relative;
-    width: 100%
-    
-}
-
-.contacto p{
-    width: 100%;
-    position:absolute;
-    margin:2em 0em;
-    
-}
 
 #form{
     color: white;
