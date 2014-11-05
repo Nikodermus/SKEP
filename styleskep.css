@@ -39,7 +39,25 @@ a{
 
 
 .articulo{
-    
+    box-shadow:-9px 9px 50px #000 ;
+    color: white;
+    height: 5em;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    width: 100%
+}
+.articulo figure{
+    width: 100%;
+    position:absolute;
+    margin:1.7em 0em;
+ 
+}
+.articulo p{
+    padding: 0.2em 0 0.2em 0;
+    position: relative;
+    margin: 0 0.8em 0 0.8em ;
 }
 .botones_contenedor{
     text-align: center;
@@ -66,7 +84,20 @@ a{
     margin: 0 0 0 6em
 }
 
-
+figure{
+    text-align: center;
+}
+.imagen{
+     width:100%;
+    max-width:1000px;
+    text-align: center;
+}
+.video{
+    width:100%;
+    height: 40%;
+    max-width:1000px;
+    text-align: center;
+}
 /*------------HEADER------------*/
 
 
@@ -161,6 +192,8 @@ nav p{
     font-size: 0.85em;
     padding: 0.2em 1.5em 0 1.5em;
     border-top: #7b7b7b dotted  0.1em ;
+    text-align: center;
+    width: 100%
 }
 nav p a{
     color: #aaa;
@@ -236,6 +269,9 @@ nav p a{
 }
 .iconos  p{  
 }
-
+.titulo img{
+    width: 10%;
+    margin: 0.6em 0 0 0 
+}
 
 
