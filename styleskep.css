@@ -234,10 +234,14 @@ nav p a{
 
 
 #contactanos{
-    background: #8547BD;   
+    background: #8547BD; 
+    color: white;
+}
+
+
 }
 #form{
-    color: white;
+   
     width: 100%;
     position: relative;
 }
@@ -258,20 +262,54 @@ nav p a{
     padding: 1em 10em 0.5em 0;
     margin: 0em 0.5em;
     border-bottom: 1px solid grey;
-    width:20%;
+    
 }
 .iconos{
     background: #8547BD;
-    height: 350px;
-    position: absolute;
+    height: 400px;
+    position: relative;
     width: 100%;
     padding: 0.5em;  
+    text-align: left;
 }
-.iconos  p{  
+
+.iconos img{
+    
+}
+.tel{
+    margin: 1em;
+}
+
+
+.tel p{
+    
+    position: absolute;
+    margin: -4em 0em 0 4em;
+
+    
+}
+
+.email{
+    margin: 1em;
 }
 .titulo img{
     width: 10%;
     margin: 0.6em 0 0 0 
 }
+
+.email p{
+    position: absolute;
+    margin: -4em 0em 0 6em;
+}
+
+.redes {
+    margin: 1em;
+}
+
+.iconos figure{
+    color: #a8a6a6;
+}
+
+
 
 
