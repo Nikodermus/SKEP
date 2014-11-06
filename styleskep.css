@@ -8,7 +8,12 @@
 body{
     width: 100%;
     overflow: hidden;
-    background: #aaa
+    background: #aaa;
+}
+
+.diferente
+{
+color: #fff;
 }
 .josefin{
     font-family: 'Josefin Sans', sans-serif;
@@ -37,28 +42,6 @@ a{
     margin:2em 0em;    
 }
 
-
-.articulo{
-    box-shadow:-9px 9px 50px #000 ;
-    color: white;
-    height: 5em;
-    text-align: center;
-    font-size: 2em;
-    font-family: 'Josefin Sans', sans-serif;
-    position: relative;
-    width: 100%
-}
-.articulo figure{
-    width: 100%;
-    position:absolute;
-    margin:1.7em 0em;
- 
-}
-.articulo p{
-    padding: 0.2em 0 0.2em 0;
-    position: relative;
-    margin: 0 0.8em 0 0.8em ;
-}
 .botones_contenedor{
     text-align: center;
     width: 100%;
@@ -97,6 +80,28 @@ figure{
     height: 40%;
     max-width:1000px;
     text-align: center;
+}
+#principal article, .animacion, .websites, .audiovisual, .informacion, .perfiles, .modelo{
+    box-shadow:-9px 9px 50px #000 ;
+    height: 5em;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    width: 100%
+}
+ #principal figure, .animacion figure, .websites figure, .audiovisual figure, .informacion figure, .perfiles figure, .modelo figure{
+    width: 100%;
+    position:absolute;
+    margin:1.7em 0em;
+}
+#principal p, .animacion p, .websites p, .audiovisual p, .informacion p, .perfiles p, .modelo p{
+    padding: 0.2em 0 0.2em 0;
+    position: relative;
+    margin: 0 0.8em 0 0.8em ;
+}
+#principal a, .animacion a, .websites a, .audiovisual a, .informacion a, .perfiles a, .modelo a{
+    color: white;
 }
 /*------------HEADER------------*/
 
@@ -228,6 +233,84 @@ nav p a{
     right: 0;
     bottom: -3em;
     margin: 0 0 0 0;
+}
+
+
+/*------------PRINCIPAL------------*/
+
+
+.porta{
+    background: #B02626;
+}
+.porta p{
+    border: solid #ED4343 3px;
+    border-radius: 6px;
+}
+.somos{
+    background: #ED4343;
+}
+.somos p{
+    border: solid #CC3E3E 3px;
+    border-radius: 6px;
+}
+.contacto{
+    background: #CC3E3E;
+}
+.contacto p{
+    border: solid #ED4343 3px;
+    border-radius: 6px;
+}
+
+
+/*------------PORTAFOLIO------------*/
+
+
+.animacion{
+    background: #17A8DB;
+}
+.animacion p{
+    border: solid #0084B3 3px;
+    border-radius: 6px;
+}
+.websites{
+    background: #007CB0;
+}
+.websites p{
+    border: solid #45B7D6 3px;
+    border-radius: 6px;
+}
+.audiovisual{
+    background: #117291;
+}
+.audiovisual p{
+    border: solid #007CB0 3px;
+    border-radius: 6px;
+}
+
+
+/*------------QUIENES------------*/
+
+
+.perfiles{
+    background: #F9861E;
+}
+.perfiles p{
+    border: solid #F15F04 3px;
+    border-radius: 6px;
+}
+.modelo{
+    background: #F9861E;
+}
+.modelo p{
+    border: solid #FF1D25 3px;
+    border-radius: 6px;
+}
+.informacion{
+    background: #F15F04;
+}
+.informacion p{
+    border: solid #F9861E 3px;
+    border-radius: 6px;
 }
 
 /*------------CONTACTANOS------------*/
