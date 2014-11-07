@@ -79,25 +79,13 @@
          </p>
      </nav>
      <section id="novedades">
-         <article>
-             <div class="botones_contenedor">
-             <div class="botones">
-                 <img src="izquierda.png"
-                      class="izquierda">
-                 <img src="derecha.png"
-                      class="derecha">
-             </div>
-             </div>
-             <div class="novedades_contenido">
-                <p class="novedades_izquierda">Nueva colección de François</p>
-                <div class="novedades_derecha">
-                    <img src="pasar-35.png">
-                    <img src="pasar-35.png">
-                    <img src="pasar-35.png">
-                    <img src="pasar-35.png">
-                </div>
-             </div>
-         </article>
+         <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
+    <!-- Slides Container -->
+    <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 300px;">
+        <div><img u="image" src="image1.jpg" /></div>
+        <div><img u="image" src="image2.jpg" /></div>
+    </div>
+</div>
      </section>
      <section id="principal">
          <article 
@@ -287,13 +275,13 @@
          <article>
              <img src="contraer-06.png">
              <div>
+                 <p class="informacion_titulo">TÉRMINOS Y CONDICIONES</p>
+                 <p class="informacion_texto">Estos son los Términos y Condiciones para el uso de nuestro sitio web y la tienda virtual</p>
                  <a href="">
                      <figure>
                          <img src="download-02.png">
                      </figure>
                  </a>
-                 <p>TÉRMINOS Y CONDICIONES</p>
-                 <p>Estos son los Términos y Condiciones para el uso de nuestro sitio web y la tienda virtual</p>
              </div>
          </article>
      </section>
@@ -341,6 +329,13 @@
              </div>
          </article>
      </section>
-     <footer></footer>
+      <script src="jquery.min.js"></script>
+<script src="jssor.slider.mini.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        var options = { $AutoPlay: true };
+        var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+    });
+</script>
   </body>
  </html>

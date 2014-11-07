@@ -309,6 +309,11 @@ nav p a{
     left: 0.5em;
 }
 
+#quienes .informacion_titulo, .informacion_texto{
+    margin: 1em;
+}
+
+
 /*------------CONTACTANOS------------*/
 
 
@@ -329,7 +334,7 @@ nav p a{
      margin: 0em 0.5em;
     border-bottom: 1px solid grey;  
 }
-.datos div {
+.datos div{
    width: 100%;   
    margin: 0;     
 }
@@ -339,16 +344,16 @@ nav p a{
     margin: 0em 0.5em;
     border-bottom: 1px solid white;
     font-family: 'Josefin', sans-serif;
-    font-size: 1.2em;
-    
+    font-size: 1.2em;  
 }
 .iconos{
     background: #8547BD;
     margin: 2em;
-    
+    padding: 1em 0em;   
+    box-shadow:0px 0px 50px rgba(0, 0, 0, 0.75)
 }
 .tel{
-    margin: 1em;
+    margin: 1em 0 0 3em;
     position: relative;
     overflow: hidden;
     height: 3em;
@@ -364,15 +369,34 @@ nav p a{
     right: 1em; 
     margin: 0.8em 0 0 0  
 }
-
-    
-
-
-
-
+.email{
+    margin: 1em 0 0 3em ;
+    position: relative;
+    overflow: hidden;
+    height: 3em;
+    width: 60%;
+    text-align: center;
+}
+.email img{
+    position: absolute;
+    left: 0.4em;
+}
+.email p{
+    position: absolute;
+    right: 1em; 
+    margin: 0.8em 0 0 0  
+}
+.redes{
+    width: 60%;
+    margin: 1em 0 0 3em ;
+}   
+.redes img{
+    margin: 0.2em;
+}
 .iconos figure{
     color: #4b2a6c;
     margin: 1em;
+    padding: 1em;
 }
 
 
