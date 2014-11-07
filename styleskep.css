@@ -8,12 +8,8 @@
 body{
     width: 100%;
     overflow: hidden;
-    background: #aaa;
-}
-
-.diferente
-{
-color: #fff;
+    background: #000;
+    color: white;
 }
 .josefin{
     font-family: 'Josefin Sans', sans-serif;
@@ -22,7 +18,6 @@ a{
     text-decoration: none;
     color: black;
 }
-
 .titulo{
     background: #151515;
     box-shadow:-9px 9px 50px #000 ;
@@ -32,16 +27,13 @@ a{
     font-size: 2em;
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
-    width: 100%
-    
+    width: 100%   
 }
-
 .titulo p{
     width: 100%;
     position:absolute;
     margin:2em 0em;    
 }
-
 .botones_contenedor{
     text-align: center;
     width: 100%;
@@ -58,15 +50,13 @@ a{
 .izquierda{
     position: static;
     left: 0;
-    margin: 0 6em 0 0
-    
+    margin: 0 6em 0 0 
 }
 .derecha{
     position: static;
     right: 0;
     margin: 0 0 0 6em
 }
-
 figure{
     text-align: center;
 }
@@ -103,6 +93,8 @@ figure{
 #principal a, .animacion a, .websites a, .audiovisual a, .informacion a, .perfiles a, .modelo a{
     color: white;
 }
+
+
 /*------------HEADER------------*/
 
 
@@ -114,8 +106,7 @@ header{
     position: fixed;
     z-index: inherit;
     height: 1.5em;
-    background: black;
-    
+    background: black;   
 }
 .header_div{
     position: absolute;
@@ -133,8 +124,7 @@ header{
      width: 18px;
      position: fixed;
      top: 0.5em;
-     right: 0.5em; 
-     
+     right: 0.5em;    
  }
 .blank{
     height: 2.5em;
@@ -162,34 +152,25 @@ nav figure {
     color: white;
     font-size: 1em;
 }
-
 nav a{
     margin: 0px;
 }
-
 nav a:nth-child(1) figure{
     background: #151515;
-    padding: 0.5em;
-    
+    padding: 0.5em;  
 }
-a:nth-child(6){
-   
+a:nth-child(6){   
     position: absolute;
     left: 1.5em;
 }
-
-a:nth-child(7){
-   
+a:nth-child(7){ 
      position: absolute;
     margin: 0 0 0 -0.9em;
 }
-
-a:nth-child(8){
-   
+a:nth-child(8){ 
      position: absolute;
      right: 1.5em;
 }
-
 nav p{
     margin: 0 0 0 0;
     position: absolute;
@@ -224,8 +205,7 @@ nav p a{
     left: 0;
     bottom: -2.6em;
     margin: 0 0 0 0;
-    color: white;
-    
+    color: white;   
 }
 
 .novedades_derecha{
@@ -252,6 +232,7 @@ nav p a{
 .somos p{
     border: solid #CC3E3E 3px;
     border-radius: 6px;
+    font-size: 0.8em;
 }
 .contacto{
     background: #CC3E3E;
@@ -285,6 +266,7 @@ nav p a{
 .audiovisual p{
     border: solid #007CB0 3px;
     border-radius: 6px;
+    font-size: 0.8em;
 }
 
 
@@ -304,6 +286,7 @@ nav p a{
 .modelo p{
     border: solid #FF1D25 3px;
     border-radius: 6px;
+    font-size: 0.7em;
 }
 .informacion{
     background: #F15F04;
@@ -311,6 +294,19 @@ nav p a{
 .informacion p{
     border: solid #F9861E 3px;
     border-radius: 6px;
+    font-size: 0.8em;
+}
+.personas{
+    width: 100%;
+}
+.personas_contenedor{
+    position: relative;
+    margin: 1em;
+}
+.personas_texto{
+    position: absolute;
+    bottom: 0.5em;
+    left: 0.5em;
 }
 
 /*------------CONTACTANOS------------*/
@@ -319,14 +315,11 @@ nav p a{
 #contactanos{
     background: #8547BD; 
     color: white;
-}
-
-
+    width: 100%;
+    overflow: hidden;
 }
 #form{
-   
     width: 100%;
-    position: relative;
 }
 .datos{   
     padding: 1em;   
@@ -341,56 +334,45 @@ nav p a{
    margin: 0;     
 }
 .datos div p{
-    display: inline-block;
-    padding: 1em 10em 0.5em 0;
+    display: block;
+    padding: 1em 2em 0.5em 1em;
     margin: 0em 0.5em;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid white;
+    font-family: 'Josefin', sans-serif;
+    font-size: 1.2em;
     
 }
 .iconos{
     background: #8547BD;
-    height: 400px;
-    position: relative;
-    width: 100%;
-    padding: 0.5em;  
-    text-align: left;
-}
-
-.iconos img{
+    margin: 2em;
     
 }
 .tel{
     margin: 1em;
+    position: relative;
+    overflow: hidden;
+    height: 3em;
+    width: 60%;
+    text-align: center;
 }
-
-
+.tel img{
+    position: absolute;
+    left: 1em;
+}
 .tel p{
-    
     position: absolute;
-    margin: -4em 0em 0 4em;
+    right: 1em; 
+    margin: 0.8em 0 0 0  
+}
 
     
-}
 
-.email{
-    margin: 1em;
-}
-.titulo img{
-    width: 10%;
-    margin: 0.6em 0 0 0 
-}
 
-.email p{
-    position: absolute;
-    margin: -4em 0em 0 6em;
-}
 
-.redes {
-    margin: 1em;
-}
 
 .iconos figure{
-    color: #a8a6a6;
+    color: #4b2a6c;
+    margin: 1em;
 }
 
 
