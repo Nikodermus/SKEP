@@ -104,6 +104,7 @@ header{
     padding: 0.5em;
     margin: 0;
     position: fixed;
+    top: 0;
     z-index: inherit;
     height: 1.5em;
     background: black;   
