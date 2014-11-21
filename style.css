@@ -221,7 +221,10 @@ nav p a{
 
 /*------------PORTAFOLIO------------*/
 
-
+.titulo img{
+    width: 10%;
+    margin: 0.5em
+}
 .animacion{
     background: #17A8DB;
 }
