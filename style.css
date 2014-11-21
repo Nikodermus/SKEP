@@ -191,31 +191,6 @@ nav p a{
 /*------------NOVEDADES------------*/
 
 
-#novedades{
-    height: 10em;
-    overflow: hidden; 
-    background-image: url(francoisnielly.jpg);
-    background-repeat: no-repeat; 
-}
-.novedades_contenido{
-    position: relative;
-    bottom: -7em;
-}
-.novedades_izquierda{
-    position: absolute;
-    left: 0;
-    bottom: -2.6em;
-    margin: 0 0 0 0;
-    color: white;   
-}
-
-.novedades_derecha{
-    position: absolute;
-    right: 0;
-    bottom: -3em;
-    margin: 0 0 0 0;
-}
-
 
 /*------------PRINCIPAL------------*/
 
