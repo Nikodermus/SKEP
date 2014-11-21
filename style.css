@@ -301,19 +301,40 @@ nav p a{
     width: 100%;
 }
 .personas_contenedor{
-    position: relative;
+    position: absolute;
     margin: 1em;
 }
 .personas_texto{
-    position: absolute;
+    position: relative;
     bottom: 0.5em;
     left: 0.5em;
 }
-
-#quienes .informacion_titulo, .informacion_texto{
+.modelo_contenedor{
+    margin: 1em;
+    padding: 0.5em;
+    position: relative;
+}
+.modelo_titulo{
+    position: absolute;
+    top: 0.2em;
+    font-size: 5em;
+    color: rgba(126, 126, 126, 0.38);
+    font-family: 'Josefin', sans-serif;
+}
+.modelo_texto{
+    font-family: 'Josefin', sans-serif;
+    text-align: justify
+}
+.informacion_titulo{
+    margin: 1em;
+    font-size: 1.4em;
+    text-align: center
+} .informacion_texto{
     margin: 1em;
 }
-
+.informacion_imagen{
+    margin: 2em;
+}
 
 /*------------CONTACTANOS------------*/
 
