@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Somos una agencia digital especializada en el desarrollo de plataformas y contenidos web.">
+      <link rel="stylesheet" 
+            type="text/css" 
+            href="style.css" 
+            media="screen"/>
+      <link rel="stylesheet" 
+            type="text/css" 
+            href="Normalize.css" 
+            media="screen"/>
+      <link rel="stylesheet" 
+            type="text/css" 
+            href="fotos.css" 
+            media="screen"/>
+      <link href="favicon.ico"
+            type="image/x-icon"
+            rel="shortcut icon"/>
+      <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' 
+            rel='stylesheet' 
+            type='text/css'>
+      <title>
+          SKEP WEB STUDIO
+      </title>
+  	</head> 
+  <body>
+     <figure class="blank">
+         <ul>
+             <li></li>
+             <li></li>
+             <li></li>
+         </ul>
+     </figure>
+      
+     <nav class="josefin">
+         <a href="">
+             <figure>MENÚ</figure>
+         </a>
+         <a href="#novedades">
+             <figure>NOVEDADES</figure>
+         </a>
+         <a href="#portafolio">
+             <figure>PORTAFOLIO</figure>
+         </a>
+         <a href="#quienes">
+             <figure>¿QUIENES SOMOS?</figure>
+         </a>
+         <a href="#contactanos">
+             <figure>CONTACTO</figure>
+         </a>
+         <a href="http://www.fb.com"
+            target="_blank">
+             <img src="social-30.png">
+         </a>
+         <a href="http://www.twitter.com"
+            target="_blank">
+             <img src="social-31.png">
+         </a>
+         <a href="http://www.pinterest.com"
+            target="_blank">
+             <img src="social-32.png">
+         </a>
+         <p>All our website info is hosted into <a href="https://www.colombiahosting.com.co/" target="_blank"> www.colombiahosting.com.co</a>, for support, click <a href="https://www.colombiahosting.com.co/centro_servicios/" target="_blank">here</a>  
+         </p>
+     </nav>
+     <section id="novedades">
+     </section>
+     <section id="principal">
+         <article 
+                  class="porta">
+             <a href="#portafolio">
+                <figure>
+                    <p>PORTAFOLIO</p>
+                </figure>
+             </a>
+         </article>
+         <article 
+                  class="somos">
+             <a href="#quienes">
+                 <figure>
+                     <p>¿QUIENES SOMOS?</p>
+                 </figure>
+             </a>
+         </article>
+         <article 
+                  class="contacto">
+             <a href="#contactanos">
+                 <figure>
+                     <p>CONTACTO</p>
+                 </figure>
+            </a>
+         </article>
+     </section>
+     <section id="portafolio">
+         <article class="titulo">
+             <div>
+                <p>DE TU IDEA A NUESTRAS MANOS</p>
+                <figure>
+                    <img src="next-white.png">
+                </figure>
+             </div>
+         </article>
+         <article class="animacion">
+             <a href="">
+                 <figure>
+                    <p>ANIMACIÓN</p>
+                 </figure>
+             </a>
+         </article>
+         <article>
+             <div>	</div>
+             
+         </article>
+         <article class="websites">
+             <a href="">
+                 <figure>
+                    <p>WEB SITES</p>
+                 </figure>
+             </a>
+         </article>
+         <article>
+         
+         </article>
+         <article class="audiovisual">
+             <a href="">
+                 <figure>
+                    <p>PRODUCCIÓN AUDIOVISUAL</p>
+                 </figure>
+             </a>
+         </article>
+         <article>
+         </article>
+     </section>
+     <section id="quienes">
+         <article class="titulo">
+             <p>
+                 SOBRE NOSOTROS
+             </p>
+         </article>
+         <article class="perfiles">
+             <a href="">
+                 <figure>
+                    <p>PERFILES</p>
+                 </figure>
+             </a>
+         </article>
+         <article>
+             <ul class="ch-grid">
+                <li>
+                    <div class="ch-item ch-img-1">
+                        <div class="ch-info">
+                            <h3>
+                                <b>Mafe Ascencio</b>
+                            </h3>
+                            <p>PRODUCCIÓN<br>VISUAL</p>
+                        </div>
+                        <div class="ch-thumb ch-img-1">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ch-item ch-img-2">
+                        <div class="ch-info">
+                            <h3>
+                                <b>Nicolás Mahecha</b>
+                            </h3>
+                            <p>CEO</p>
+                        </div>
+                        <div class="ch-thumb ch-img-2"></div>
+                    </div>
+                </li>
+            </ul>
+         </article>
+         <article class="modelo">
+                <a href="">
+                    <figure>
+                        <p>MODELO ESTRATÉGICO</p>
+                    </figure>
+                </a>
+         </article>
+         <article>
+             <div class="modelo_contenedor">
+                 <p class="modelo_titulo">MISIÓN</p>
+                 <p class="modelo_texto">
+                     Skep es una agencia digital enfocada en cubrir la necesidad de comunicar contenido multimedia de una forma eficaz, utilizando herramientas brindadas por las TICS (Tecnologías de la información y de las comunicaciones). Tales como: Páginas web, aplicaciones móviles y producción audiovisual.
+                 </p>
+             </div>
+             <div class="modelo_contenedor">
+                 <p class="modelo_titulo">VISIÓN</p>
+                 <p class="modelo_texto">
+                     Posicionarnos  como una agencia digital reconocida en la industria Colombiana, Ayudando a micro y pequeñas empresas primeramente, a divulgar sus productos por este medio, para luego alcanzar medianas y grandes compañías.
+
+                 </p>
+             </div>
+         </article>
+         <article class="informacion">
+                <a href="">
+                    <figure>
+                        <p>INFORMACIÓN LEGAL</p>
+                    </figure>
+                </a>
+         </article>
+         <article>
+             <div>
+                 <p class="informacion_titulo">TÉRMINOS Y CONDICIONES</p>
+                 <p class="informacion_texto">Estos son los Términos y Condiciones para el uso de nuestro sitio web y la tienda virtual</p>
+                 <a href="">
+                     <figure class="informacion_imagen">
+                         <img src="download-02.png">
+                     </figure>
+                 </a>
+             </div>
+         </article>
+     </section>
+     <section id="contactanos">
+         <article class="titulo">
+             <p>
+                 CONTÁCTANOS
+             </p>
+         </article>
+         <article id="form">
+             <div class="datos">
+                <div>
+                    <p>Nombre</p>
+                    <p>Asunto</p>
+                </div>
+                <div>
+                <p>Email*</p>
+                <p>Mensaje*</p>
+                </div>
+             </div>
+             <div >
+                 <div class="iconos">
+                     <div class="tel" >
+                         <img src="telefono.png">
+                         <p>+57 390 5723</p>
+                     </div>
+                     <div class="email">
+                         <img src="email-03.png">
+                         <p>info@skep.co</p>
+                     </div>
+                     <div class="redes">
+                         <a href="http://www.fb.com"
+                            target="_blank">
+                             <img src="facebook-04.png">
+                         </a>
+                         <a href="http://www.twitter.com"
+                            target="_blank">
+                             <img src="twitter-06.png">
+                         </a>
+                         <a href="http://www.pinterest.com"
+                            target="_blank">
+                             <img src="printerest-05.png">
+                         </a>
+                     </div>
+                     <figure>
+                         <b>
+                            <p>
+                         Toda la información aqui contemplada es de total confidencialidad y no será usada para ningún uso no autorizado.
+                            </p>
+                         </b>
+                   </figure>
+                 </div>
+             </div>
+         </article>
+     </section>
+       <header>
+        <div class="header_div">
+            <a href="">
+                <figure>
+                    <img src="typo-30.png"
+                        class="letra">
+                </figure>
+            </a>
+            <a href="">
+                <figure>
+                    <img src="skep-07.png"
+                        class="logo">
+             </figure>
+         </a>
+         </div>
+     </header>
+      <script src="jquery.min.js"></script>
+<script src="jssor.slider.mini.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        var options = { $AutoPlay: true };
+        var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+    });
+</script>
+  </body>
+ </html>
