@@ -71,8 +71,21 @@ figure{
 #principal a, .animacion a, .websites a, .audiovisual a, .informacion a, .perfiles a, .modelo a{
     color: white;
 }
-
-
+.general_titulo{
+    font-size: 2em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin: 1em;
+    text-transform: uppercase;
+}
+.general_texto{
+    font-family: 'Josefin', sans-serif;
+    text-align: justify;
+    margin: 1em;
+    font-size: 1em
+}
 /*------------HEADER------------*/
 
 
@@ -146,11 +159,9 @@ a:nth-child(8){
      right: 1.5em;
 }
 nav p{
-    margin: 0 0 0 0;
-    position: absolute;
-    bottom: 0.4em; 
+    margin: 4em 0 0 0;
     font-size: 0.85em;
-    padding: 0.4em 1.5em;
+    padding: 1.6em 1.5em 0 1.5em;
     border-top: #7b7b7b dotted  0.1em ;
     text-align: center;
 }
@@ -266,7 +277,7 @@ nav .nav_texto p{
     padding: 0.5em;
 }
 .modelo_titulo{
-    font-size: 5em;
+    font-size: 2em;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     font-family: 'Raleway', sans-serif;
@@ -275,13 +286,6 @@ nav .nav_texto p{
 .modelo_texto{
     font-family: 'Josefin', sans-serif;
     text-align: justify
-}
-.informacion_titulo{
-    margin: 1em;
-    font-size: 1.4em;
-    text-align: center
-} .informacion_texto{
-    margin: 1em;
 }
 .informacion_imagen{
     margin: 2em;

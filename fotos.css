@@ -1,3 +1,6 @@
+#wowslider-container0{
+    padding: 2em 0em
+}
 .ch-grid {
     margin: 20px 0 0 0;
     padding: 0;
@@ -114,6 +117,7 @@
 .ch-item:hover .ch-thumb {
     box-shadow: inset 0 0 0 15px rgba(255,255,255, 0.5), 0 1px 3px rgba(0,0,0,0.2);
     transform: rotate(-110deg);
+    filter: blur(20px);
 }
 .ch-grid a{
     text-decoration: none;
