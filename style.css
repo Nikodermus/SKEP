@@ -24,9 +24,10 @@ a{
     height: 5em;
     text-align: center;
     font-size: 2em;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     position: relative;
-    width: 100%   
+    width: 100%;
+    font-weight: 100;
 }
 .titulo p{
     width: 100%;
@@ -54,7 +55,8 @@ figure{
     font-size: 2em;
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
-    width: 100%
+    width: 100%;
+    font-weight: 300;
 }
  #principal figure, .animacion figure, .websites figure, .audiovisual figure, .informacion figure, .perfiles figure, .modelo figure{
     width: 100%;
@@ -82,26 +84,22 @@ header{
     position: fixed;
     top: 0;
     z-index: inherit;
-    height: 1.5em;   
-}
-.header_div{
-    height: 20px;
-    background: black;
+    height: 2.5em;   
 }
 .letra{
-   width: 80px;
+   width: 120px;
     position: fixed;
-    top: 0.5em;
-    left: 0.5em; 
+    top: 0.9em;
+    left: 1.5em; 
 }
  .logo{
-     width: 18px;
+     width: 28px;
      position: fixed;
-     top: 0.5em;
-     right: 0.5em;    
+     top: 0.7em;
+     right: 1.5em;    
  }
 .blank{
-    height: 2.5em;
+    height: 3.5em;
 }
 
 
@@ -149,10 +147,9 @@ nav p{
     position: absolute;
     bottom: 0.4em; 
     font-size: 0.85em;
-    padding: 0.2em 1.5em 0 1.5em;
+    padding: 0.4em 1.5em;
     border-top: #7b7b7b dotted  0.1em ;
     text-align: center;
-    width: 100%
 }
 nav p a{
     color: #aaa;
@@ -262,14 +259,13 @@ nav p a{
 .modelo_contenedor{
     margin: 1em;
     padding: 0.5em;
-    position: relative;
 }
 .modelo_titulo{
-    position: absolute;
-    top: 0.2em;
     font-size: 5em;
-    color: rgba(126, 126, 126, 0.38);
-    font-family: 'Josefin', sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
 }
 .modelo_texto{
     font-family: 'Josefin', sans-serif;
