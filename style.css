@@ -77,7 +77,6 @@ figure{
     color: rgba(255, 255, 255, 0.5);
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
-<<<<<<< Updated upstream
     margin: 1em;
     text-transform: uppercase;
 }
@@ -86,13 +85,6 @@ figure{
     text-align: justify;
     margin: 1em;
     font-size: 1em
-=======
-    margin: 1em; 
-}
-.general_texto{
-    margin: 1em;
-    text-align: justify;
->>>>>>> Stashed changes
 }
 /*------------HEADER------------*/
 
@@ -295,19 +287,6 @@ nav .nav_texto p{
     font-family: 'Josefin', sans-serif;
     text-align: justify
 }
-<<<<<<< Updated upstream
-=======
-.informacion_titulo{
-    font-size: 2em;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    margin: 1em;
-} .informacion_texto{
-    margin: 1em;
-}
->>>>>>> Stashed changes
 .informacion_imagen{
     margin: 2em;
 }
