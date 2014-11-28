@@ -57,14 +57,14 @@
     box-shadow: 0 0 1px rgba(240, 8, 8, 0.9);
 }
 .ch-img-1 { 
-    background-image: url(mafe.jpg);
+    background-image: url(../images/mafe.jpg);
     z-index: 10;
     background-repeat: no-repeat;
     background-position: top;
 }
  
 .ch-img-2 { 
-    background-image: url(nico.jpg);
+    background-image: url(../images/nico.jpg);
     z-index: 11;
     background-repeat: no-repeat;
     background-position: top;
@@ -75,7 +75,7 @@
     height: inherit;
     border-radius: 50%;
     overflow: hidden;
-    background: url(mafehover.jpg);
+    background: url(../images/mafehover.jpg);
     background-repeat: no-repeat;
     background-position: top right;
     box-shadow: inset 0 0 0 5px rgba(0,0,0,0.05);
@@ -86,7 +86,7 @@
     height: inherit;
     border-radius: 50%;
     overflow: hidden;
-    background: url(nicohover.jpg);
+    background: url(../images/nicohover.jpg);
     background-repeat: no-repeat;
     background-position: top;
     box-shadow: inset 0 0 0 5px rgba(0,0,0,0.05);
