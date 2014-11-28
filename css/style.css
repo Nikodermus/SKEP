@@ -32,7 +32,8 @@ a{
 .titulo p{
     width: 100%;
     position:absolute;
-    margin:2em 0em;    
+    margin:2em 0em;
+    font-size: %;
 }
 figure{
     text-align: center;
@@ -83,7 +84,7 @@ figure{
 .general_texto{
     font-family: 'Josefin', sans-serif;
     text-align: justify;
-    margin: 1em;
+    margin: 1em 3em;
     font-size: 1em
 }
 /*------------HEADER------------*/
@@ -103,15 +104,9 @@ header{
    width: 120px;
     position: fixed;
     top: 0.9em;
-    left: 1.5em; 
-}
- .logo{
-     width: 28px;
-     position: fixed;
-     top: 0.7em;
-     right: 1.5em;    
- }
-.blank{
+    left: 3em; 
+}   
+#blank{
     height: 3.5em;
 }
 
@@ -175,49 +170,19 @@ nav .nav_texto p{
 
 /*------------WOW SLIDER------------*/
 
-.wowslider-container1{
+#wowslider-container1, #wowslider-container2,#wowslider-container3{
     padding: 4em 0;
 }
-.wowslider-container0{
-    padding: 4em 0;
+#wowslider-container0{
+    margin: 0 0 -1em 0;
+    padding:  0 -1em 0;
+    background: #151515;
 }
-
-
-/*------------NOVEDADES------------*/
-
-
-
-/*------------PRINCIPAL------------*/
-
-
-.porta{
-    background: #B02626;
-}
-.porta p{
-    border: solid #ED4343 3px;
-    border-radius: 6px;
-}
-.somos{
-    background: #ED4343;
-}
-.somos p{
-    border: solid #CC3E3E 3px;
-    border-radius: 6px;
-    font-size: 0.8em;
-}
-.contacto{
-    background: #CC3E3E;
-}
-.contacto p{
-    border: solid #ED4343 3px;
-    border-radius: 6px;
-}
-
 
 /*------------PORTAFOLIO------------*/
 
 .titulo img{
-    width: 5%;
+    width: 40px;
     margin: 0.5em
 }
 .animacion{

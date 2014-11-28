@@ -33,37 +33,33 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,100,200' 
             rel='stylesheet' 
             type='text/css'>
-    
     <title>SKEP WEB STUDIO</title>
-
-    <!-- Start WOWSlider.com HEAD section --><!-- add to the <head> of your page -->
-    <link rel="stylesheet" 
-          type="text/css" 
-          href="engine0/style.css"/>
-    <script type="text/javascript" 
-            src="engine0/jquery.js">
-    </script>
-    <!-- End WOWSlider.com HEAD section -->
-
     		<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
 
-	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
 
-	<script type="text/javascript" src="engine1/jquery.js"></script>	<script src="https://www.youtube.com/iframe_api"></script>
-
+	<script type="text/javascript" src="engine0/jquery.js"></script>
 
 	<!-- End WOWSlider.com HEAD section -->	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-
-	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
-
-	<!--script type="text/javascript" src="engine2/jquery.js"></script-->
-
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<!--script type="text/javascript" src="engine1/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+	<!--script type="text/javascript" src="engine2/jquery.js"></script-->
 	<!-- End WOWSlider.com HEAD section --></head>
     <body>
-<!-- -->
-
-<div class="conteiner"><!--Inicio Contenedor-->
-      <div class="menu-wrap"><!--Inicio Menu-->
+<div class="conteiner">
+    
+      <div class="menu-wrap">
+          
+          
+          
+          
+          <!--Inicio Menu-->
+          
+          
+          
+          
     <nav class="josefin">
           <div class="icon-list"> <a href="">
             <figure>MENÚ</figure>
@@ -77,34 +73,53 @@
             <figure>CONTACTO</figure>
             </a> <a href="http://www.fb.com"
             target="_blank"> <img src="images/social-30.png"> </a> <a href="http://www.twitter.com"
-            target="_blank"> <img src="images/social-31.png"> </a> <a href="http://www.pinterest.com"
+            target="_blank" > <img src="images/social-31.png"> </a> <a href="http://www.pinterest.com"
             target="_blank"> <img src="images/social-32.png"> </a> </div>
         </nav>
     <button class="close-button" id="close-button">Close Menu</button>
   </div>
+    
+    
+    
+    
       <!--fin Menu-->
+    
+    
+    
+    
       <button class="menu-button" id="open-button">Open Menu</button>
-      <section id="novedades"> </section>
-      <section id="principal">
-    <article 
-                  class="porta"> <a href="#portafolio">
-      <figure>
-        <p>PORTAFOLIO</p>
-      </figure>
-      </a> </article>
-    <article 
-                  class="somos"> <a href="#quienes">
-      <figure>
-        <p>¿QUIENES SOMOS?</p>
-      </figure>
-      </a> </article>
-    <article 
-                  class="contacto"> <a href="#contactanos">
-      <figure>
-        <p>CONTACTO</p>
-      </figure>
-      </a> </article>
-  </section>
+      <section id="blank">
+          <img src="images/blank.jpg">
+      </section>
+      <section id="novedades">
+          <span></span>
+          <div>	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+
+	<div id="wowslider-container0">
+
+	<div class="ws_images"><ul>
+		<li><a href="http://www.awwwards.com/"><img src="data0/images/captura.jpg" target="_blank"  alt="Conoce los mejores sitios de toda la Web" title="Conoce los mejores sitios de toda la Web" id="wows0_0"/></a></li>
+		<li><a href="http://tympanus.net/codrops/"><img src="data0/images/captura2.jpg" target="_blank"  alt="Tutoriales gratuitos y premium de contenido digital" title="Tutoriales gratuitos y premium de contenido digital" id="wows0_1"/></a></li>
+		<li><a href="http://tympanus.net/codrops/"><img src="data0/images/captura3.jpg" target="_blank"  alt="Agencia de desarrollo digital en Montreal" title="Agencia de desarrollo digital en Montreal" id="wows0_2"/></a></li>
+		<li><a href="http://www.rezo-zero.com/"><img src="data0/images/captura4.jpg" target="_blank"  alt="Desarrollando de manera diferente" title="Desarrollando de manera diferente" id="wows0_3"/></a></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" target="_blank" title="Conoce los mejores sitios de toda la Web"><img src="data0/tooltips/captura.jpg" alt="Conoce los mejores sitios de toda la Web"/>1</a>
+		<a href="#" target="_blank" title="Tutoriales gratuitos y premium de contenido digital"><img src="data0/tooltips/captura2.jpg" alt="Tutoriales gratuitos y premium de contenido digital"/>2</a>
+		<a href="#" target="_blank" title="Agencia de desarrollo digital en Montreal"><img src="data0/tooltips/captura3.jpg" alt="Agencia de desarrollo digital en Montreal"/>3</a>
+		<a href="#" target="_blank" title="Desarrollando de manera diferente"><img src="data0/tooltips/captura4.jpg" alt="Desarrollando de manera diferente"/>4</a>
+	</div></div><span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by WOWSlider.com v7.2</span>
+
+	<div class="ws_shadow"></div>
+
+	</div>	
+
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+
+	<script type="text/javascript" src="engine0/script.js"></script>
+
+	<!-- End WOWSlider.com BODY section --></div>
+      </section>
       <section id="portafolio">
     <article class="titulo">
           <div>
@@ -119,34 +134,7 @@
       </a> </article>
     <article> 
         <span></span>
-        <div>	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-
-	<div id="wowslider-container1">
-
-	<div class="ws_images"><ul>
-		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/zJH8GYQmz3o?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/zjh8gyqmz3o.png" alt="300: Rise of an Empire" title="300: Rise of an Empire" id="wows1_0"/>Fan trailer, by Fredy Chica.</li>
-		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/2nTIa7Bs3iI?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/2ntia7bs3ii.png" alt="So Beautiful - Anthem Lights" title="So Beautiful - Anthem Lights" id="wows1_1"/>After Effects by Mafe Ascencio</li>
-		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/bOLG4OS0YhE?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/bolg4os0yhe.png" alt="Ironman Interface" title="Ironman Interface" id="wows1_2"/></li>
-		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/75hJp-nDVpc?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/75hjpndvpc.png" alt="full screen slider" title="JONATHAN SALDAÑA BIOGRAPHY" id="wows1_3"/>Edition by Nicolás Mahecha.</li>
-		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/JGLqHxPtKgQ?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/jglqhxptkgq.png" alt="Blow me away - Breaking Benjamin" title="Blow me away - Breaking Benjamin" id="wows1_4"/>After effects CS6</li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="300: Rise of an Empire"><img src="data1/tooltips/zjh8gyqmz3o.png" alt="300: Rise of an Empire"/>1</a>
-		<a href="#" title="So Beautiful - Anthem Lights"><img src="data1/tooltips/2ntia7bs3ii.png" alt="So Beautiful - Anthem Lights"/>2</a>
-		<a href="#" title="Ironman Interface"><img src="data1/tooltips/bolg4os0yhe.png" alt="Ironman Interface"/>3</a>
-		<a href="#" title="JONATHAN SALDAÑA BIOGRAPHY"><img src="data1/tooltips/75hjpndvpc.png" alt="JONATHAN SALDAÑA BIOGRAPHY"/>4</a>
-		<a href="#" title="Blow me away - Breaking Benjamin"><img src="data1/tooltips/jglqhxptkgq.png" alt="Blow me away - Breaking Benjamin"/>5</a>
-	</div></div><span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by WOWSlider.com v7.2</span>
-
-	<div class="ws_shadow"></div>
-
-	</div>	
-
-	<script type="text/javascript" src="engine1/wowslider.js"></script>
-
-	<script type="text/javascript" src="engine1/script.js"></script>
-
-	<!-- End WOWSlider.com BODY section --></div>
+        <div> </div>
     </article>
     <article class="websites"> <a href="">
       <figure>
@@ -162,44 +150,52 @@
     <article>
           <p class="general_titulo">STANLEY LAY ARTBOOK</p>
           <p class="general_texto"> Recopilamos las mejores ilustraciones de un gran artista en un asombroso Fan Artbook </p>
-          <div> <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-        <div id="wowslider-container0">
-              <div class="ws_images">
-            <ul>
-                  <li><img src="data0/images/140430690.jpg" alt="" title="" id="wows0_0"/></li>
-                  <li><img src="data0/images/140430691.jpg" alt="" title="" id="wows0_1"/></li>
-                  <li><img src="data0/images/140430692.jpg" alt="" title="" id="wows0_2"/></li>
-                  <li><img src="data0/images/140430693.jpg" alt="" title="" id="wows0_3"/></li>
-                  <li><img src="data0/images/140430694.jpg" alt="" title="" id="wows0_4"/></li>
-                  <li><img src="data0/images/140430695.jpg" alt="" title="" id="wows0_5"/></li>
-                  <li><img src="data0/images/140430696.jpg" alt="" title="" id="wows0_6"/></li>
-                  <li><img src="data0/images/140430697.jpg" alt="" title="" id="wows0_7"/></li>
-                  <li><img src="data0/images/140430698.jpg" alt="" title="" id="wows0_8"/></li>
-                  <li><img src="data0/images/140430699.jpg" alt="" title="" id="wows0_9"/></li>
-                  <li><img src="data0/images/1404306910.jpg" alt="" title="" id="wows0_10"/></li>
-                  <li><img src="data0/images/1404306911.jpg" alt="" title="" id="wows0_11"/></li>
-                  <li><img src="data0/images/1404306912.jpg" alt="" title="" id="wows0_12"/></li>
-                  <li><img src="data0/images/1404306913.jpg" alt="" title="" id="wows0_13"/></li>
-                  <li><a href="http://wowslider.com/vf"><img src="data0/images/1404306914.jpg" alt="full screen slider" title="" id="wows0_14"/></a></li>
-                  <li><img src="data0/images/1404306915.jpg" alt="" title="" id="wows0_15"/></li>
-                </ul>
-          </div>
-              <div class="ws_bullets">
-            <div> <a href="#" title=""><img src="data0/tooltips/140430690.jpg" alt=""/>1</a> <a href="#" title=""><img src="data0/tooltips/140430691.jpg" alt=""/>2</a> <a href="#" title=""><img src="data0/tooltips/140430692.jpg" alt=""/>3</a> <a href="#" title=""><img src="data0/tooltips/140430693.jpg" alt=""/>4</a> <a href="#" title=""><img src="data0/tooltips/140430694.jpg" alt=""/>5</a> <a href="#" title=""><img src="data0/tooltips/140430695.jpg" alt=""/>6</a> <a href="#" title=""><img src="data0/tooltips/140430696.jpg" alt=""/>7</a> <a href="#" title=""><img src="data0/tooltips/140430697.jpg" alt=""/>8</a> <a href="#" title=""><img src="data0/tooltips/140430698.jpg" alt=""/>9</a> <a href="#" title=""><img src="data0/tooltips/140430699.jpg" alt=""/>10</a> <a href="#" title=""><img src="data0/tooltips/1404306910.jpg" alt=""/>11</a> <a href="#" title=""><img src="data0/tooltips/1404306911.jpg" alt=""/>12</a> <a href="#" title=""><img src="data0/tooltips/1404306912.jpg" alt=""/>13</a> <a href="#" title=""><img src="data0/tooltips/1404306913.jpg" alt=""/>14</a> <a href="#" title=""><img src="data0/tooltips/1404306914.jpg" alt=""/>15</a> <a href="#" title=""><img src="data0/tooltips/1404306915.jpg" alt=""/>16</a> </div>
-          </div>
-              <span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by SKEP</span>
-              <div class="ws_shadow"></div>
-            </div>
-        <script type="text/javascript" src="engine0/wowslider.js"></script> 
-        <script type="text/javascript" src="engine0/script.js"></script> 
-        <!-- End WOWSlider.com BODY section --></div>
+          <div>
+          	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="data1/images/140412840.jpg" alt="140412840" title="140412840" id="wows1_0"/></li>
+		<li><img src="data1/images/140412841.jpg" alt="" title="" id="wows1_1"/></li>
+		<li><img src="data1/images/140412842.jpg" alt="" title="" id="wows1_2"/></li>
+		<li><img src="data1/images/140412843.jpg" alt="" title="" id="wows1_3"/></li>
+		<li><img src="data1/images/140412845.jpg" alt="" title="" id="wows1_4"/></li>
+		<li><img src="data1/images/140412846.jpg" alt="" title="" id="wows1_5"/></li>
+		<li><img src="data1/images/140412847.jpg" alt="" title="" id="wows1_6"/></li>
+		<li><img src="data1/images/140412848.jpg" alt="" title="" id="wows1_7"/></li>
+		<li><img src="data1/images/140412849.jpg" alt="" title="" id="wows1_8"/></li>
+		<li><img src="data1/images/1404128410.jpg" alt="" title="" id="wows1_9"/></li>
+		<li><img src="data1/images/1404128411.jpg" alt="" title="" id="wows1_10"/></li>
+		<li><a href="http://wowslider.com/vf"><img src="data1/images/1404128413.jpg" alt="full screen slider" title="" id="wows1_11"/></a></li>
+		<li><img src="data1/images/1404128414.jpg" alt="" title="" id="wows1_12"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="140412840"><img src="data1/tooltips/140412840.jpg" alt="140412840"/>1</a>
+		<a href="#" title=""><img src="data1/tooltips/140412841.jpg" alt=""/>2</a>
+		<a href="#" title=""><img src="data1/tooltips/140412842.jpg" alt=""/>3</a>
+		<a href="#" title=""><img src="data1/tooltips/140412843.jpg" alt=""/>4</a>
+		<a href="#" title=""><img src="data1/tooltips/140412845.jpg" alt=""/>5</a>
+		<a href="#" title=""><img src="data1/tooltips/140412846.jpg" alt=""/>6</a>
+		<a href="#" title=""><img src="data1/tooltips/140412847.jpg" alt=""/>7</a>
+		<a href="#" title=""><img src="data1/tooltips/140412848.jpg" alt=""/>8</a>
+		<a href="#" title=""><img src="data1/tooltips/140412849.jpg" alt=""/>9</a>
+		<a href="#" title=""><img src="data1/tooltips/1404128410.jpg" alt=""/>10</a>
+		<a href="#" title=""><img src="data1/tooltips/1404128411.jpg" alt=""/>11</a>
+		<a href="#" title=""><img src="data1/tooltips/1404128413.jpg" alt=""/>12</a>
+		<a href="#" title=""><img src="data1/tooltips/1404128414.jpg" alt=""/>13</a>
+	</div></div><span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by WOWSlider.com v7.2</span>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section --></div>
         </article>
         <article>
-                    <SPAN></SPAN>
-    <div>	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-
-	<div id="wowslider-container2">
-
+                   <p class="general_titulo">FOTOGRAFÍA</p>
+            <p class="genral_texto"></p>
+        <P></P>
+    <div>
+    	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container2">
 	<div class="ws_images"><ul>
 		<li><img src="data2/images/fotografia_bolos.jpg" alt="" title="" id="wows2_0"/></li>
 		<li><img src="data2/images/fotografia_camino.jpg" alt="" title="" id="wows2_1"/></li>
@@ -217,19 +213,16 @@
 		<a href="#" title=""><img src="data2/tooltips/fotografia_lluvia.jpg" alt=""/>5</a>
 		<a href="#" title=""><img src="data2/tooltips/fotografia_salto.jpg" alt=""/>6</a>
 		<a href="#" title=""><img src="data2/tooltips/fotografia_urbano.jpg" alt=""/>7</a>
-	</div></div><span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by WOWSlider.com v7.2</span>
-
-	<div class="ws_shadow"></div>
-
-	</div>	
-
-	<script type="text/javascript" src="engine2/wowslider.js"></script>
-
-	<script type="text/javascript" src="engine2/script.js"></script>
-
+	</div></div><span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by WOWSlider.com v7.2</span>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine2/wowslider.js"></script>
+	<script type="text/javascript" src="engine2/script.js"></script>
 	<!-- End WOWSlider.com BODY section --></div>
         </article>
         <article>
+            <p class="general_titulo">ILUSTRACIÓN</p>
+            <p class="genral_texto"></p>
             <div>
             </div>
         </article>

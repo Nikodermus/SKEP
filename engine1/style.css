@@ -7,8 +7,8 @@
 	display: table;
 	zoom: 1; 
 	position: relative;
-	width: 100%;
-	max-height:480px;
+	width: auto;
+	max-height:685px;
 	margin:0px auto 0px;
 	z-index:90;
 	text-align:left; /* reset align=center */
@@ -19,7 +19,7 @@
 	-moz-box-sizing: content-box;
 	box-sizing: content-box; 
 }
-* html #wowslider-container1{ width:640px }
+* html #wowslider-container1{ width:480px }
 #wowslider-container1 .ws_images ul{
 	position:relative;
 	width: 10000%; 
@@ -49,8 +49,8 @@
 	left:0;
 	top:0;
 	height:100%;
-	max-height:480px;
-	max-width: 100%;
+	max-height:685px;
+	max-width: 480px;
 	vertical-align: top;
 	border:none;
 	overflow: hidden;
@@ -58,7 +58,7 @@
 #wowslider-container1 .ws_images ul a{
 	width:100%;
 	height:100%;
-	max-height:480px;
+	max-height:685px;
 	display:block;
 	color:transparent;
 }
@@ -74,7 +74,7 @@
 	margin:0;
 }
 #wowslider-container1 .ws_images > div > img {
-	max-height:480px;
+	max-height:685px;
 }
 
 #wowslider-container1 .ws_images iframe {
@@ -313,13 +313,13 @@
 #wowslider-container1 .ws-title span{
 	font-size: 1.8em;
 }#wowslider-container1 .ws_images > ul{
-	animation: wsBasic 20s infinite;
-	-moz-animation: wsBasic 20s infinite;
-	-webkit-animation: wsBasic 20s infinite;
+	animation: wsBasic 52s infinite;
+	-moz-animation: wsBasic 52s infinite;
+	-webkit-animation: wsBasic 52s infinite;
 }
-@keyframes wsBasic{0%{left:-0%} 10%{left:-0%} 20%{left:-100%} 30%{left:-100%} 40%{left:-200%} 50%{left:-200%} 60%{left:-300%} 70%{left:-300%} 80%{left:-400%} 90%{left:-400%} }
-@-moz-keyframes wsBasic{0%{left:-0%} 10%{left:-0%} 20%{left:-100%} 30%{left:-100%} 40%{left:-200%} 50%{left:-200%} 60%{left:-300%} 70%{left:-300%} 80%{left:-400%} 90%{left:-400%} }
-@-webkit-keyframes wsBasic{0%{left:-0%} 10%{left:-0%} 20%{left:-100%} 30%{left:-100%} 40%{left:-200%} 50%{left:-200%} 60%{left:-300%} 70%{left:-300%} 80%{left:-400%} 90%{left:-400%} }
+@keyframes wsBasic{0%{left:-0%} 3.85%{left:-0%} 7.69%{left:-100%} 11.54%{left:-100%} 15.38%{left:-200%} 19.23%{left:-200%} 23.08%{left:-300%} 26.92%{left:-300%} 30.77%{left:-400%} 34.62%{left:-400%} 38.46%{left:-500%} 42.31%{left:-500%} 46.15%{left:-600%} 50%{left:-600%} 53.85%{left:-700%} 57.69%{left:-700%} 61.54%{left:-800%} 65.38%{left:-800%} 69.23%{left:-900%} 73.08%{left:-900%} 76.92%{left:-1000%} 80.77%{left:-1000%} 84.62%{left:-1100%} 88.46%{left:-1100%} 92.31%{left:-1200%} 96.15%{left:-1200%} }
+@-moz-keyframes wsBasic{0%{left:-0%} 3.85%{left:-0%} 7.69%{left:-100%} 11.54%{left:-100%} 15.38%{left:-200%} 19.23%{left:-200%} 23.08%{left:-300%} 26.92%{left:-300%} 30.77%{left:-400%} 34.62%{left:-400%} 38.46%{left:-500%} 42.31%{left:-500%} 46.15%{left:-600%} 50%{left:-600%} 53.85%{left:-700%} 57.69%{left:-700%} 61.54%{left:-800%} 65.38%{left:-800%} 69.23%{left:-900%} 73.08%{left:-900%} 76.92%{left:-1000%} 80.77%{left:-1000%} 84.62%{left:-1100%} 88.46%{left:-1100%} 92.31%{left:-1200%} 96.15%{left:-1200%} }
+@-webkit-keyframes wsBasic{0%{left:-0%} 3.85%{left:-0%} 7.69%{left:-100%} 11.54%{left:-100%} 15.38%{left:-200%} 19.23%{left:-200%} 23.08%{left:-300%} 26.92%{left:-300%} 30.77%{left:-400%} 34.62%{left:-400%} 38.46%{left:-500%} 42.31%{left:-500%} 46.15%{left:-600%} 50%{left:-600%} 53.85%{left:-700%} 57.69%{left:-700%} 61.54%{left:-800%} 65.38%{left:-800%} 69.23%{left:-900%} 73.08%{left:-900%} 76.92%{left:-1000%} 80.77%{left:-1000%} 84.62%{left:-1100%} 88.46%{left:-1100%} 92.31%{left:-1200%} 96.15%{left:-1200%} }
 
 #wowslider-container1 .ws_images  img{
     border-radius: 4px; 
@@ -336,7 +336,7 @@
 	text-indent:0;
 	display:block;
 	bottom:20px;
-	left:-32px;
+	left:-17px;
 	visibility:hidden;
 	position:absolute;
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -359,7 +359,7 @@
 	left:0;
 	overflow:hidden;
 	position:relative;
-	width:64px;
+	width:33px;
 	background-color:#FFF;
 }
 #wowslider-container1  .ws_bullets .ws_bulframe{
@@ -379,7 +379,7 @@
 	position:absolute;
 	bottom:-10px;
 	margin-left:-6px;
-	left:32px;
+	left:17px;
 	background:url(./triangle.png);
 	width:15px;
 	height:6px;
