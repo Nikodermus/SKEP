@@ -45,7 +45,20 @@
     </script>
     <!-- End WOWSlider.com HEAD section -->
 
-    	</head>
+    		<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+
+	<script type="text/javascript" src="engine1/jquery.js"></script>	<script src="https://www.youtube.com/iframe_api"></script>
+
+
+	<!-- End WOWSlider.com HEAD section -->	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+
+	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+
+	<!--script type="text/javascript" src="engine2/jquery.js"></script-->
+
+	<!-- End WOWSlider.com HEAD section --></head>
     <body>
 <!-- -->
 
@@ -106,7 +119,34 @@
       </a> </article>
     <article> 
         <span></span>
-        <div></div>
+        <div>	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+
+	<div id="wowslider-container1">
+
+	<div class="ws_images"><ul>
+		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/zJH8GYQmz3o?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/zjh8gyqmz3o.png" alt="300: Rise of an Empire" title="300: Rise of an Empire" id="wows1_0"/>Fan trailer, by Fredy Chica.</li>
+		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/2nTIa7Bs3iI?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/2ntia7bs3ii.png" alt="So Beautiful - Anthem Lights" title="So Beautiful - Anthem Lights" id="wows1_1"/>After Effects by Mafe Ascencio</li>
+		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/bOLG4OS0YhE?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/bolg4os0yhe.png" alt="Ironman Interface" title="Ironman Interface" id="wows1_2"/></li>
+		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/75hJp-nDVpc?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/75hjpndvpc.png" alt="full screen slider" title="JONATHAN SALDAÑA BIOGRAPHY" id="wows1_3"/>Edition by Nicolás Mahecha.</li>
+		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/JGLqHxPtKgQ?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/jglqhxptkgq.png" alt="Blow me away - Breaking Benjamin" title="Blow me away - Breaking Benjamin" id="wows1_4"/>After effects CS6</li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="300: Rise of an Empire"><img src="data1/tooltips/zjh8gyqmz3o.png" alt="300: Rise of an Empire"/>1</a>
+		<a href="#" title="So Beautiful - Anthem Lights"><img src="data1/tooltips/2ntia7bs3ii.png" alt="So Beautiful - Anthem Lights"/>2</a>
+		<a href="#" title="Ironman Interface"><img src="data1/tooltips/bolg4os0yhe.png" alt="Ironman Interface"/>3</a>
+		<a href="#" title="JONATHAN SALDAÑA BIOGRAPHY"><img src="data1/tooltips/75hjpndvpc.png" alt="JONATHAN SALDAÑA BIOGRAPHY"/>4</a>
+		<a href="#" title="Blow me away - Breaking Benjamin"><img src="data1/tooltips/jglqhxptkgq.png" alt="Blow me away - Breaking Benjamin"/>5</a>
+	</div></div><span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by WOWSlider.com v7.2</span>
+
+	<div class="ws_shadow"></div>
+
+	</div>	
+
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+
+	<script type="text/javascript" src="engine1/script.js"></script>
+
+	<!-- End WOWSlider.com BODY section --></div>
     </article>
     <article class="websites"> <a href="">
       <figure>
@@ -116,7 +156,7 @@
     <article> </article>
     <article class="audiovisual"> <a href="">
       <figure>
-        <p>PRODUCCIÓN AUDIOVISUAL</p>
+        <p>PRODUCCIÓN VISUAL</p>
       </figure>
       </a> </article>
     <article>
@@ -147,12 +187,51 @@
               <div class="ws_bullets">
             <div> <a href="#" title=""><img src="data0/tooltips/140430690.jpg" alt=""/>1</a> <a href="#" title=""><img src="data0/tooltips/140430691.jpg" alt=""/>2</a> <a href="#" title=""><img src="data0/tooltips/140430692.jpg" alt=""/>3</a> <a href="#" title=""><img src="data0/tooltips/140430693.jpg" alt=""/>4</a> <a href="#" title=""><img src="data0/tooltips/140430694.jpg" alt=""/>5</a> <a href="#" title=""><img src="data0/tooltips/140430695.jpg" alt=""/>6</a> <a href="#" title=""><img src="data0/tooltips/140430696.jpg" alt=""/>7</a> <a href="#" title=""><img src="data0/tooltips/140430697.jpg" alt=""/>8</a> <a href="#" title=""><img src="data0/tooltips/140430698.jpg" alt=""/>9</a> <a href="#" title=""><img src="data0/tooltips/140430699.jpg" alt=""/>10</a> <a href="#" title=""><img src="data0/tooltips/1404306910.jpg" alt=""/>11</a> <a href="#" title=""><img src="data0/tooltips/1404306911.jpg" alt=""/>12</a> <a href="#" title=""><img src="data0/tooltips/1404306912.jpg" alt=""/>13</a> <a href="#" title=""><img src="data0/tooltips/1404306913.jpg" alt=""/>14</a> <a href="#" title=""><img src="data0/tooltips/1404306914.jpg" alt=""/>15</a> <a href="#" title=""><img src="data0/tooltips/1404306915.jpg" alt=""/>16</a> </div>
           </div>
-              <span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by WOWSlider.com v7.2</span>
+              <span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by SKEP</span>
               <div class="ws_shadow"></div>
             </div>
         <script type="text/javascript" src="engine0/wowslider.js"></script> 
         <script type="text/javascript" src="engine0/script.js"></script> 
         <!-- End WOWSlider.com BODY section --></div>
+        </article>
+        <article>
+                    <SPAN></SPAN>
+    <div>	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+
+	<div id="wowslider-container2">
+
+	<div class="ws_images"><ul>
+		<li><img src="data2/images/fotografia_bolos.jpg" alt="" title="" id="wows2_0"/></li>
+		<li><img src="data2/images/fotografia_camino.jpg" alt="" title="" id="wows2_1"/></li>
+		<li><img src="data2/images/fotografia_centro.jpg" alt="" title="" id="wows2_2"/></li>
+		<li><img src="data2/images/fotografia_diente.jpg" alt="" title="" id="wows2_3"/></li>
+		<li><img src="data2/images/fotografia_lluvia.jpg" alt="" title="" id="wows2_4"/></li>
+		<li><a href="http://wowslider.com/vf"><img src="data2/images/fotografia_salto.jpg" alt="full screen slider" title="" id="wows2_5"/></a></li>
+		<li><img src="data2/images/fotografia_urbano.jpg" alt="" title="" id="wows2_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><img src="data2/tooltips/fotografia_bolos.jpg" alt=""/>1</a>
+		<a href="#" title=""><img src="data2/tooltips/fotografia_camino.jpg" alt=""/>2</a>
+		<a href="#" title=""><img src="data2/tooltips/fotografia_centro.jpg" alt=""/>3</a>
+		<a href="#" title=""><img src="data2/tooltips/fotografia_diente.jpg" alt=""/>4</a>
+		<a href="#" title=""><img src="data2/tooltips/fotografia_lluvia.jpg" alt=""/>5</a>
+		<a href="#" title=""><img src="data2/tooltips/fotografia_salto.jpg" alt=""/>6</a>
+		<a href="#" title=""><img src="data2/tooltips/fotografia_urbano.jpg" alt=""/>7</a>
+	</div></div><span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by WOWSlider.com v7.2</span>
+
+	<div class="ws_shadow"></div>
+
+	</div>	
+
+	<script type="text/javascript" src="engine2/wowslider.js"></script>
+
+	<script type="text/javascript" src="engine2/script.js"></script>
+
+	<!-- End WOWSlider.com BODY section --></div>
+        </article>
+        <article>
+            <div>
+            </div>
         </article>
   </section>
       <section id="quienes">
