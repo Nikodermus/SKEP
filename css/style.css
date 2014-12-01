@@ -275,7 +275,7 @@ nav .nav_texto p{
 #form{
     width: 100%;
 }
-.datos{   
+/*.datos{   
     padding: 1em;   
 }
 .datos p{
@@ -293,13 +293,14 @@ nav .nav_texto p{
     margin: 0em 0.5em;
     border-bottom: 1px solid white;
     font-family: 'Josefin', sans-serif;
-    font-size: 1.2em;  
+    font-size: 1.2em;*/  
 }
 .iconos{
     background: #8547BD;
     margin: 2em;
     padding: 1em 0em;   
-    box-shadow:0px 0px 50px rgba(0, 0, 0, 0.75)
+    box-shadow:0px 0px 50px rgba(0, 0, 0, 0.75);
+    
 }
 .tel{
     margin: 1em 0 0 3em;

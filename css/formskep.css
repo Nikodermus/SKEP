@@ -1,14 +1,12 @@
 #subscribe, 
 #login{
-    position: absolute;
+    /*position: absolute;*/
     
-    width: 88%; 
+    width: 30%; 
     padding: 18px 6% 60px 6%;
-    margin: 0 0 35px 0;
+    margin: 0;
     background: #8547BD;
-    border: 1px solid rgba(147, 184, 189,0.8);
-     inset;
-    border-radius: 5px;
+    border-style: none;
 }
 #login{
     z-index: 22;
@@ -68,7 +66,15 @@ textarea:-moz-placeholder{
 } 
 input {
   outline: none;
+    display: block;
+    
+    
 }
+
+.send {
+    
+}
+
 
 
 #wrapper input:not([type="checkbox"]){
