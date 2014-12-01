@@ -51,7 +51,7 @@ figure{
     max-width:1000px;
     text-align: center;
 }
-#principal article, .animacion, .websites, .audiovisual, .informacion, .perfiles, .modelo{
+#principal article, .animacion, .websites, .audiovisual, .informacion, .perfiles, .modelo, .color{
     box-shadow:-9px 9px 50px #000 ;
     height: 5em;
     text-align: center;
@@ -61,17 +61,17 @@ figure{
     width: 100%;
     font-weight: 300;
 }
- #principal figure, .animacion figure, .websites figure, .audiovisual figure, .informacion figure, .perfiles figure, .modelo figure{
+ #principal figure, .animacion figure, .websites figure, .audiovisual figure, .informacion figure, .perfiles figure, .modelo figure, .color figure{
     width: 100%;
     position:absolute;
     margin:1.7em 0em;
 }
-#principal p, .animacion p, .websites p, .audiovisual p, .informacion p, .perfiles p, .modelo p{
+#principal p, .animacion p, .websites p, .audiovisual p, .informacion p, .perfiles p, .modelo p, .color p{
     padding: 0.2em 0 0.2em 0;
     position: relative;
     margin: 0 0.8em 0 0.8em ;
 }
-#principal a, .animacion a, .websites a, .audiovisual a, .informacion a, .perfiles a, .modelo a{
+#principal a, .animacion a, .websites a, .audiovisual a, .informacion a, .perfiles a, .modelo a, .color a{
     color: white;
 }
 .general_titulo{
@@ -210,9 +210,14 @@ nav .nav_texto p{
 .audiovisual p{
     border: solid #0084B3 3px;
     border-radius: 6px;
-    font-size: 0.8em;
 }
-
+.color{
+    background: #21a2c1;
+}
+.color p{
+    border: solid white 3px;
+    border-radius: 6px;
+}
 
 /*------------QUIENES------------*/
 
@@ -230,7 +235,6 @@ nav .nav_texto p{
 .modelo p{
     border: solid #F9861E 3px;
     border-radius: 6px;
-    font-size: 0.7em;
 }
 .informacion{
     background: #F15F04;
@@ -238,7 +242,6 @@ nav .nav_texto p{
 .informacion p{
     border: solid #F9861E 3px;
     border-radius: 6px;
-    font-size: 0.8em;
 }
 .personas{
     width: 100%;
@@ -255,23 +258,6 @@ nav .nav_texto p{
 .modelo_contenedor{
     margin: 1em;
     padding: 0.5em;
-}
-.modelo_titulo{
-    font-size: 2em;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-}
-.modelo_texto{
-    font-family: 'Josefin', sans-serif;
-    text-align: justify;
-    margin: 15px 50px;
-    
-}
-.general_texto{
-    font-family: 'Josefin', sans-serif;
-}
 }
 .informacion_imagen{
     margin: 2em;
@@ -362,6 +348,29 @@ nav .nav_texto p{
     padding: 1em;
 }
 
+/*======WIDESCREEN======*/
 
+@Media screen and (min-width:1000px){
+    .mitad{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+    .full{
+    width: 100%;
+    float: left;
+}
+    .mitad_in{
+    width: 48%;
+    float: left;
+    overflow: hidden;
+    padding: 1%;   
+}
+    
+    
+    
+    
+    
+}
 
 
