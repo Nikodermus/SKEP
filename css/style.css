@@ -12,10 +12,12 @@ body{
 }
 .josefin{
     font-family: 'Josefin Sans', sans-serif;
+    
 }
 a{
     text-decoration: none;
     color: black;
+    
 }
 .titulo{
     background: #151515;
@@ -172,8 +174,11 @@ nav .nav_texto p{
 
 #wowslider-container1, #wowslider-container2,#wowslider-container3{
     padding: 4em 0;
+   
+    
 }
 #wowslider-container0{
+    
     margin: 0 0 -1em 0;
     padding:  0 -1em 0;
     background: #151515;
@@ -196,14 +201,14 @@ nav .nav_texto p{
     background: #007CB0;
 }
 .websites p{
-    border: solid #45B7D6 3px;
+    border: solid #0084B3 3px;
     border-radius: 6px;
 }
 .audiovisual{
     background: #117291;
 }
 .audiovisual p{
-    border: solid #007CB0 3px;
+    border: solid #0084B3 3px;
     border-radius: 6px;
     font-size: 0.8em;
 }
@@ -213,17 +218,17 @@ nav .nav_texto p{
 
 
 .perfiles{
-    background: #F9861E;
+    background: #F15F04;
 }
 .perfiles p{
-    border: solid #F15F04 3px;
+    border: solid #F9861E 3px;
     border-radius: 6px;
 }
 .modelo{
-    background: #F9861E;
+    background: #F15F04;
 }
 .modelo p{
-    border: solid #FF1D25 3px;
+    border: solid #F9861E 3px;
     border-radius: 6px;
     font-size: 0.7em;
 }
@@ -260,7 +265,13 @@ nav .nav_texto p{
 }
 .modelo_texto{
     font-family: 'Josefin', sans-serif;
-    text-align: justify
+    text-align: justify;
+    margin: 15px 50px;
+    
+}
+.general_texto{
+    font-family: 'Josefin', sans-serif;
+}
 }
 .informacion_imagen{
     margin: 2em;
