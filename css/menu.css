@@ -8,14 +8,9 @@ body,
 	width: 100%;
 	height: 100%;	
 }
-
-
-.container {
-	background: #373a47;
-	border: 2px solid yellow;
-}
 .menu-wrap {
 	margin-left: -40px;
+    height: 30em
 }
 
 .menu-wrap a {
@@ -142,7 +137,7 @@ body,
 	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 }
 
-.josefin, 
+.nav, 
 .icon-list {
 	height: 100%;
 }
@@ -221,6 +216,7 @@ body,
 	-webkit-transition-duration: 0.9s;
 	transition-duration: 0.9s;
 }
+
 
 .show-menu .content::before {
 	opacity: 1;

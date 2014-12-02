@@ -2,14 +2,15 @@
 #login{
     /*position: absolute;*/
     
-    width: 85%; 
-    padding: 18px 6% 60px 6%;
+    width: 90%; 
+    padding: 2%;
     margin: 0;
     background: #8547BD;
     border-style: none;
 }
 #login{
     z-index: 22;
+    
 }
 
 
@@ -58,22 +59,37 @@
 /**** advanced input styling ****/
 /* placeholder */
 ::-webkit-input-placeholder  { 
-    color: rgb(190, 188, 188); 
+    color: rgba(255, 255, 255, 0.59); 
     font-style: italic;
 }
 input:-moz-placeholder,
 textarea:-moz-placeholder{ 
-    color: rgb(190, 188, 188);
+    color: rgba(255, 255, 255, 0.59);
     font-style: italic;
 } 
 input {
   outline: none;
     display: block;
-    
-    
+    background: 
+        #613489;  
 }
-
+input:nth-child(4){
+    outline: none;
+    display: block;
+    background: black;
+}
+#login p{
+    margin: 1em 0;
+    font-size: 1em;
+    text-align: left;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
 .send {
+    background: 
+        none;
     
 }
 
@@ -146,7 +162,7 @@ input {
 @Media screen and (min-width:1000px){
     
     #login{
-        width: 30%;
+        width: 60%;
         margin: 0;
         border-style: none;
     }

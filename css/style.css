@@ -145,15 +145,15 @@ nav a:nth-child(1) figure{
 }
 a:nth-child(6){   
     position: absolute;
-    left: 1.5em;
+    left: 1.8em;
 }
 a:nth-child(7){ 
      position: absolute;
-    margin: 0 0 0 -0.9em;
+    margin: 0 0 0 5.2em;
 }
 a:nth-child(8){ 
      position: absolute;
-     right: 1.5em;
+     right: 1.8em;
 }
 nav p{
     margin: 4em 0 0 0;
@@ -272,33 +272,11 @@ nav .nav_texto p{
     width: 100%;
     overflow: hidden;
 }
-#form{
-    width: 100%;
-}
-/*.datos{   
-    padding: 1em;   
-}
-.datos p{
-    padding: 1em ;
-     margin: 0em 0.5em;
-    border-bottom: 1px solid grey;  
-}
-.datos div{
-   width: 100%;   
-   margin: 0;     
-}
-.datos div p{
-    display: block;
-    padding: 1em 2em 0.5em 1em;
-    margin: 0em 0.5em;
-    border-bottom: 1px solid white;
-    font-family: 'Josefin', sans-serif;
-    font-size: 1.2em;*/  
-}
 .iconos{
     background: #8547BD;
-    margin: 2em;
-    padding: 1em 0em;   
+    margin: 2em 3em;
+    padding: 1em 0em;  
+    width: 70%;
     box-shadow:0px 0px 50px rgba(0, 0, 0, 0.75);
     
 }
@@ -341,7 +319,16 @@ nav .nav_texto p{
     margin: 1em 0 0 3em ;
 }   
 .redes img{
-    margin: 0.2em;
+    margin: 0.2em 0;
+}
+.redes img:nth-child(1){
+    margin: 0 0 0 0.2em;
+}
+.redes img:nth-child(2){
+    margin: 0 0 0 0.2em;
+}
+.redes img:nth-child(3){
+    margin: 0 0.2em 0 0;
 }
 .iconos figure{
     color: #4b2a6c;
@@ -370,11 +357,20 @@ nav .nav_texto p{
     
     #login{
         border-style: none;
-        margin: 0;
-        width: 30%;
+        margin: auto 1%;
+        width: 80%;
+        float: left;
+        overflow:  hidden;
     }
     
-    
+    .iconos{
+        width: 30%;
+        display: inline-block;
+        float: right;
+        margin: 
+            4em 2em 2em 2em;
+        
+    }
     
 }
 
