@@ -2,7 +2,7 @@
 #login{
     /*position: absolute;*/
     
-    width: 30%; 
+    width: 85%; 
     padding: 18px 6% 60px 6%;
     margin: 0;
     background: #8547BD;
@@ -23,6 +23,8 @@
     text-align: center;
     padding-bottom: 30px;
 }
+
+
  
 /** For the moment only webkit supports the background-clip:text; */
 #wrapper h1{
@@ -140,3 +142,11 @@ input {
         transform: translateX(-20px);
     }
 }
+
+@Media screen and (min-width:1000px){
+    
+    #login{
+        width: 30%;
+        margin: 0;
+        border-style: none;
+    }

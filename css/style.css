@@ -368,7 +368,11 @@ nav .nav_texto p{
     padding: 1%;   
 }
     
-    
+    #login{
+        border-style: none;
+        margin: 0;
+        width: 30%;
+    }
     
     
     
